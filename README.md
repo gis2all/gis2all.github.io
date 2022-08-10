@@ -19,7 +19,9 @@ deploy-github-pages.cmd
 
 主题使用的是 [butterfly](https://github.com/jerryc127/hexo-theme-butterfly), 安装方式使用 npm 所以在第一步时已经安装, 更改主题参考 [官方文档](https://butterfly.js.org/)
 
-更新主题
+更新主题, 转到 `themes\butterfly` 目录
 ```
-npm update hexo-theme-butterfly
+git pull
 ```
+
+主题中的 `_config.yml`和 `_config.butterfly` 都是主题的配置文件, 但是后者优先级更高
