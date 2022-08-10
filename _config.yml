@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Chao Wang的博客
 subtitle: ''
-description: ''
+description: '这里来写一些描述'
 keywords:
-author: John Doe
-language: en
+author: Chao Wang
+language: zh-CN
 timezone: ''
 
 # URL
