@@ -15,4 +15,11 @@ deploy-github-pages.cmd
 
 建议先本地部署调试，如正常再部署更新至Github Pages，这是因为 Github Pages使用 Github Actions有次数限制
 
-主题使用的是 [butterfly](https://github.com/jerryc127/hexo-theme-butterfly), 安装方式使用 npm 所以在第一步时已经安装, 更改主题参考官方文档
+---
+
+主题使用的是 [butterfly](https://github.com/jerryc127/hexo-theme-butterfly), 安装方式使用 npm 所以在第一步时已经安装, 更改主题参考 [官方文档](https://butterfly.js.org/)
+
+更新主题
+```
+npm update hexo-theme-butterfly
+```
