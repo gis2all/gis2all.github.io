@@ -19,7 +19,12 @@ deploy-github-pages.cmd
 
 主题使用的是 [butterfly](https://github.com/jerryc127/hexo-theme-butterfly), 安装方式使用 npm 所以在第一步时已经安装, 更改主题参考 [官方文档](https://butterfly.js.org/)
 
-更新主题, 转到 `themes\butterfly` 目录
+因为使用的是另一个repo所以不会在 github 显示代码
+```
+git clone -b master git@github.com:jerryc127/hexo-theme-butterfly.git themes/butterfly
+```
+
+如想更新主题, 转到 `themes\butterfly` 目录
 ```
 git pull
 ```
