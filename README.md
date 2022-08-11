@@ -19,14 +19,28 @@ deploy-github-pages.cmd
 
 主题使用的是 [butterfly](https://github.com/jerryc127/hexo-theme-butterfly), 安装方式使用 npm 所以在第一步时已经安装, 更改主题参考 [官方文档](https://butterfly.js.org/)
 
-专门有一个repo用来修改主题, 这里只克隆主题用于编译项目, 不要在此项目中修改主题样式
+默认不修改主题里的任何文件, 在项目中使用 `npm install` 安装完依赖后, 主题的相对路径为 `node_modules\hexo-theme-butterfly`, 将主题中的资源等文件放至项目中的资源目录, 这样在主题更新时不会覆盖资源文件,
+
 ```
-git clone -b master git@github.com:gis2all/hexo-theme-butterfly.git themes/butterfly
+# 更新主题
+npm update hexo-theme-butterfly
 ```
 
-如想更新主题, 转到 `themes\butterfly` 目录
+引用资源, 默认配置路径位于 `node_modules\hexo-theme-butterfly\source`, 所以你会发现这样引用图片
 ```
-git pull
+# Avatar (头像)
+avatar:
+  img: /img/avatar.jpg
+  effect: false
 ```
 
-主题中的 `_config.yml`和 `_config.butterfly` 都是主题的配置文件, 但是后者优先级更高
+那么其实在项目的source目录对应主题的source目录, 且项目的source目录优先级更高, 所以直接在项目的source目录引用资源文件即可 (自己新建 asset 目录用来存放资源文件)
+
+```
+# Avatar (头像)
+avatar:
+  img: /asset/theme_avatar_2.jpg
+  effect: false
+```
+
+主题中的 `_config.yml`和 项目中的 `_config.butterfly` 都是主题的配置文件, 但是后者优先级更高, 在 `_config.butterfly` 文件中配置主题事项
