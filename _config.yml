@@ -3,17 +3,21 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Chao Wang的博客
-subtitle: ''
-description: '这里来写一些描述'
+title: 遗忘旖旎
+subtitle: 仰慕真理
+description: DAYS GOING ON.
 keywords:
-author: Chao Wang
-language: zh-CN
-timezone: ''
+  - gis2all
+  - 遗忘旖旎
+author: gis2all
+language:
+  - zh-CN
+  - en
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://gis2all.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
