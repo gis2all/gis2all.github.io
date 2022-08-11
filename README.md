@@ -1,3 +1,5 @@
+# 一、编译部署
+
 转到项目根目录, 安装 hexo 依赖库（根据package.json文件）
 ```
 npm install
@@ -16,6 +18,11 @@ deploy-github-pages.cmd
 建议先本地部署调试，如正常再部署更新至Github Pages，这是因为 Github Pages使用 Github Actions有次数限制
 
 ---
+
+# 二、主题
+
+<details>
+<summary>点击查看主题配置详细信息</summary>
 
 主题使用的是 [butterfly](https://github.com/jerryc127/hexo-theme-butterfly), 安装方式使用 npm 所以在第一步时已经安装, 更改主题参考 [官方文档](https://butterfly.js.org/)
 
@@ -44,3 +51,30 @@ avatar:
 ```
 
 主题中的 `_config.yml`和 项目中的 `_config.butterfly` 都是主题的配置文件, 但是后者优先级更高, 在 `_config.butterfly` 文件中配置主题事项
+
+</details>
+
+# 三、评论系统
+
+<details>
+<summary>点击查看主题配置详细信息</summary>
+
+这里使用`giscus`集成评论系统
+
+需要确保以下条件已完成：
+- 仓库是 public类型.
+- 仓库开启 Discussions. Repo -> Settings -> General -> Features -> Discussions 
+- [giscus app](https://github.com/apps/giscus) 在Github已安装
+
+
+![image](/source/asset/readme_1.png)
+
+转到 [giscus.app](https://giscus.app/zh-CN) 填写repo, 进而获取 repo, repo_id, category_id等值, 将其拷贝填写至主题配置文件 `_config.butterfly.yml`中的 giscus项
+
+![image](/source/asset/readme_2.png)
+
+重新编译部署后测试后测试, 就可以在博客中添加评论了, 在仓库的Discussions中可以更改删除评论, 同时会同步至博客
+
+![image](/source/asset/readme_3.png)
+
+</details>
