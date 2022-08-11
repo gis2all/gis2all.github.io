@@ -22,7 +22,7 @@ deploy-github-pages.cmd
 # 二、主题
 
 <details>
-<summary>点击查看主题配置详细信息</summary>
+<summary>点击查看详细配置信息</summary>
 
 主题使用的是 [butterfly](https://github.com/jerryc127/hexo-theme-butterfly), 安装方式使用 npm 所以在第一步时已经安装, 更改主题参考 [官方文档](https://butterfly.js.org/)
 
@@ -57,7 +57,7 @@ avatar:
 # 三、评论系统
 
 <details>
-<summary>点击查看主题配置详细信息</summary>
+<summary>点击查看详细配置信息</summary>
 
 这里使用`giscus`集成评论系统
 
