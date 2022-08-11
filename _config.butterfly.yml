@@ -178,9 +178,9 @@ anchor: false
 toc:
   post: true
   page: true
-  number: true
+  number: false
   expand: true
-  style_simple: false # for post
+  style_simple: true # for post
 
 post_copyright:
   enable: true
