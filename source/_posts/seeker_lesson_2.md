@@ -1,6 +1,6 @@
 ---
 title: 慕道友课程系列 —— 第二课 神
-date: 2022-08-11
+date: 2022-08-11 02:00
 categories:
   - 慕道友课程
 tags:
@@ -210,6 +210,8 @@ cover: /asset/bible.jpg
 ——路加福音3：21-22
 
 </aside>
+
+---
 
 思考：
 

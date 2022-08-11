@@ -1,6 +1,6 @@
 ---
 title: 慕道友课程系列 —— 第四课 基督耶稣
-date: 2022-08-11
+date: 2022-08-11 04:00
 categories:
   - 慕道友课程
 tags:
@@ -241,6 +241,8 @@ cover: /asset/bible.jpg
 ——启示录19：16
 
 </aside>
+
+---
 
 思考：
 
