@@ -4,14 +4,14 @@
 
 menu:
   主页: / || fas fas fa-globe-asia
+  总览: /archives/ || fas fas fa-calendar-alt
   类别: /categories/ || fas fa-folder
-  时间轴: /archives/ || fas fas fa-calendar-alt
   标签: /tags/ || fas fa-tag
   # 列表||fas fa-list:
   #   音乐: /music/ || fas fa-music
   #   电影: /movies/ || fas fa-video
   # 链接: /link/ || fas fa-link
-  关于: /about/ || fas fa-user
+  其他: /about/ || fas fa-user
 
 # Code Blocks (代碼相關)
 # --------------------------------------
