@@ -103,6 +103,14 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: butterfly
 
+# 搜索系统
+# https://github.com/wzpan/hexo-generator-search
+# 去掉 template 才能编译成功
+search:
+  path: search.xml
+  field: all
+  content: true
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:

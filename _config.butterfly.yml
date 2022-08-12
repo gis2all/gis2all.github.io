@@ -50,8 +50,8 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
-  preload: false
+  enable: true
+  preload: true
   CDN:
 
 # Math (數學)
@@ -246,7 +246,7 @@ addThis:
 # https://github.com/overtrue/share.js
 sharejs:
   enable: true
-  sites: facebook,twitter,wechat,weibo,qq
+  sites: twitter,wechat,weibo,qq
 
 # AddToAny
 # https://www.addtoany.com/

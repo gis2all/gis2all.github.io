@@ -78,3 +78,30 @@ avatar:
 ![image](/source/asset/readme_3.png)
 
 </details>
+
+# 四、文章搜索
+
+<details>
+<summary>点击查看详细配置信息</summary>
+
+使用本地搜索功能, 编辑 `_config.butterfly.yml`
+```
+# Local search
+local_search:
+  enable: true
+  preload: true
+  CDN:
+```
+
+配置 `_config.yml`
+```
+# 搜索系统
+# https://github.com/wzpan/hexo-generator-search
+# 去掉 template 才能编译成功
+search:
+  path: search.xml
+  field: all
+  content: true
+```
+
+</details>
