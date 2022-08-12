@@ -19,7 +19,7 @@ deploy-github-pages.cmd
 
 ---
 
-# 二、主题
+# 二、博客主题
 
 <details>
 <summary>点击查看详细配置信息</summary>
@@ -83,6 +83,11 @@ avatar:
 
 <details>
 <summary>点击查看详细配置信息</summary>
+
+安装 `hexo-generator-search`, 默认第一步已安装所有依赖库
+```
+npm install hexo-generator-search --save
+```
 
 使用本地搜索功能, 编辑 `_config.butterfly.yml`
 ```
