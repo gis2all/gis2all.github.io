@@ -297,22 +297,22 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>关于我</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="这就是我，-Chao-Wang"><a href="#这就是我，-Chao-Wang" class="headerlink" title="这就是我， Chao Wang"></a>这就是我， Chao Wang</h1>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>关于我</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
-        <content type="html"><![CDATA[<h1 id="这就是我，-Chao-Wang"><a href="#这就是我，-Chao-Wang" class="headerlink" title="这就是我， Chao Wang"></a>这就是我， Chao Wang</h1>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
