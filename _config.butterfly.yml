@@ -3,20 +3,20 @@
 # --------------------------------------
 
 menu:
-  首页: / || fas fa-home
-  归档: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
-  类别: /categories/ || fas fa-folder-open
+  主页: / || fas fas fa-globe-asia
+  类别: /categories/ || fas fa-folder
+  时间轴: /archives/ || fas fas fa-calendar-alt
+  标签: /tags/ || fas fa-tag
   # 列表||fas fa-list:
   #   音乐: /music/ || fas fa-music
   #   电影: /movies/ || fas fa-video
   # 链接: /link/ || fas fa-link
-  关于: /about/ || fas fa-heart
+  关于: /about/ || fas fa-user
 
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: pale night #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
