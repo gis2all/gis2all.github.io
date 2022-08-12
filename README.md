@@ -17,6 +17,11 @@ deploy-github-pages.cmd
 
 建议先本地部署调试，如正常再部署更新至Github Pages，这是因为 Github Pages使用 Github Actions有次数限制
 
+说明
+- `main` 分支 - 博客框架, 编译生成静态页面
+- `deployment` 分支 - 静态页面, 部署至 `Github Pages`
+- `Discussions` 功能 - 博客的评论系统
+
 ---
 
 # 二、博客主题
@@ -63,7 +68,7 @@ avatar:
 
 需要确保以下条件已完成：
 - 仓库是 public类型.
-- 仓库开启 Discussions. Repo -> Settings -> General -> Features -> Discussions 
+- 仓库开启 Discussions. Repo -> Settings -> General -> Features -> Discussions
 - [giscus app](https://github.com/apps/giscus) 在Github已安装
 
 
