@@ -76,7 +76,7 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /asset/favicon.png
+favicon: /asset/favicon.ico
 
 # Avatar (頭像)
 avatar:
@@ -643,7 +643,7 @@ aside:
       link: https://github.com/gis2all
   card_announcement:
     enable: true
-    content: 欢迎来到我的博客😃
+    content: 欢迎来到我的博客!
   card_recent_post:
     enable: true
     limit: 3 # if set 0 will show all
