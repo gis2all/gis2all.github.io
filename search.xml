@@ -324,17 +324,6 @@
     
     
     <entry>
-      <title>其他</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="关于本站"><a href="#关于本站" class="headerlink" title="关于本站"></a>关于本站</h1><ul><li>Hexo - 博客框架</li><li>Hexo-Theme-Butterfly - 博客主题</li><li>Github Pages - 托管站点</li></ul><h1 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h1><p><code>gis2all</code>, 一位简单的北漂青年。</p>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>类别</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
@@ -351,6 +340,17 @@
       <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>其他</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="关于本站"><a href="#关于本站" class="headerlink" title="关于本站"></a>关于本站</h1><ul><li>Hexo - 博客框架</li><li>Hexo-Theme-Butterfly - 博客主题</li><li>Github Pages - 托管站点</li></ul><h1 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h1><p><code>gis2all</code>, 一位简单的北漂青年。</p>]]></content>
       
     </entry>
     
