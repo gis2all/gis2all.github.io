@@ -613,9 +613,13 @@ subtitle:
   # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
   # source: false
-  source: 1
+  source: false
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
+    - 爱是恒久忍耐，又有恩慈；爱是不嫉妒
+    - 爱是不自夸，不张狂，不做害羞的事，不求自己的益处
+    - 不轻易发怒，不计算人的恶，不喜欢不义，只喜欢真理
+    - 凡事包容，凡事相信，凡事盼望，凡事忍耐
 
 # Loading Animation (加載動畫)
 preloader: false
