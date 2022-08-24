@@ -1,6 +1,6 @@
 # 一、编译部署
 
-转到项目根目录, 安装 hexo 依赖库（根据package.json文件）
+转到项目根目录, 安装`hexo`依赖库（根据package.json文件）
 ```
 npm install
 ```
@@ -10,12 +10,12 @@ npm install
 deploy-local-server.cmd
 ```
 
-部署至Github Pages (第一次会有认证，根据输出信息进行权限认证), 在`_config.yml`中的deploy部分有设置, 地址 https://gis2all.github.io/
+部署至`Github Pages`(第一次会有认证，根据输出信息进行权限认证), 在`_config.yml`中的`deploy`部分有设置, 地址 https://gis2all.github.io/
 ```
 deploy-github-pages.cmd
 ```
 
-建议先本地部署调试，如正常再部署更新至Github Pages，这是因为 Github Pages使用 Github Actions有次数限制
+建议先本地部署调试，如正常再部署更新至`Github Pages`, 这是因为`Github Pages`使用`Github Actions`有次数限制
 
 说明
 - `main` 分支 - 博客框架, 编译生成静态页面
@@ -29,7 +29,7 @@ deploy-github-pages.cmd
 <details>
 <summary>点击查看详细配置信息</summary>
 
-主题使用的是 [butterfly](https://github.com/jerryc127/hexo-theme-butterfly), 安装方式使用 npm 所以在第一步时已经安装, 更改主题参考 [官方文档](https://butterfly.js.org/)
+主题使用的是 [butterfly](https://github.com/jerryc127/hexo-theme-butterfly), 安装方式使用`npm`所以在第一步时已经安装, 更改主题参考 [官方文档](https://butterfly.js.org/)
 
 默认不修改主题里的任何文件, 在项目中使用 `npm install` 安装完依赖后, 主题的相对路径为 `node_modules\hexo-theme-butterfly`, 将主题中的资源等文件放至项目中的资源目录, 这样在主题更新时不会覆盖资源文件,
 
@@ -38,7 +38,7 @@ deploy-github-pages.cmd
 npm update hexo-theme-butterfly
 ```
 
-引用资源, 默认配置路径位于 `node_modules\hexo-theme-butterfly\source`, 所以你会发现这样引用图片
+引用资源, 默认配置路径位于`node_modules\hexo-theme-butterfly\source`, 所以你会发现这样引用图片
 ```
 # Avatar (头像)
 avatar:
@@ -46,7 +46,7 @@ avatar:
   effect: false
 ```
 
-那么其实在项目的source目录对应主题的source目录, 且项目的source目录优先级更高, 所以直接在项目的source目录引用资源文件即可 (自己新建 asset 目录用来存放资源文件)
+那么其实在项目的`source`目录对应主题的`source`目录, 且项目的`source`目录优先级更高, 所以直接在项目的`source`目录引用资源文件即可 (自己新建`asset`目录用来存放资源文件)
 
 ```
 # Avatar (头像)
@@ -113,5 +113,24 @@ search:
   field: all
   content: true
 ```
+
+</details>
+
+# 其他
+
+<details>
+<summary>项目如何初始化</summary>
+
+安装`npm`, 使用`npm`安装`hexo`
+```
+npm install -g hexo-cli
+```
+
+新建`hexo`项目, 这里命令会自动创建所有文件结构
+```
+hexo init <folder>
+```
+
+Github新建一个空repo, `<username>.github.io`, clone至本地, 将`<folder>`目录下的除`.git`外的所有文件拷贝至空repo目录下,这样就完成项目的初始化 (之所以这么做是因为hexo不允许非空目录下新建项目, 绕了一个弯)
 
 </details>
