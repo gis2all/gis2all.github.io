@@ -24,7 +24,37 @@ deploy-github-pages.cmd
 
 ---
 
-# 二、博客主题
+# 二、常用命令
+
+<details>
+<summary>点击查看常用命令</summary>
+
+转到根目录吗, 使用如下命令:
+```
+hexo new [layout] <title>
+
+# 例子, 在 _post目录下新增 test.md 文件, title为 "test"
+# hexo new page --path _posts/test "This is test project"
+```
+
+其他常用命令
+```
+# 清理
+hexo clean
+
+# 生成
+hexo generate
+
+# 部署至本地
+hexo server
+
+# 部署至Github Pages
+hexo deploy
+```
+
+</details>
+
+# 三、博客主题
 
 <details>
 <summary>点击查看详细配置信息</summary>
@@ -59,7 +89,7 @@ avatar:
 
 </details>
 
-# 三、评论系统
+# 四、评论系统
 
 <details>
 <summary>点击查看详细配置信息</summary>
@@ -84,7 +114,7 @@ avatar:
 
 </details>
 
-# 四、文章搜索
+# 五、文章搜索
 
 <details>
 <summary>点击查看详细配置信息</summary>
