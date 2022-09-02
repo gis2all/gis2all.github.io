@@ -979,9 +979,9 @@ canvas:not(#ribbon-canvas),
     filter: alpha(opacity=0);
   }
   100% {
-    opacity: 0.6;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-    filter: alpha(opacity=60);
+    opacity: 0.7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    filter: alpha(opacity=70);
   }
 }
 @-webkit-keyframes ribbon_to_show {
@@ -991,9 +991,9 @@ canvas:not(#ribbon-canvas),
     filter: alpha(opacity=0);
   }
   100% {
-    opacity: 0.6;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-    filter: alpha(opacity=60);
+    opacity: 0.7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    filter: alpha(opacity=70);
   }
 }
 @-o-keyframes ribbon_to_show {
@@ -1003,9 +1003,9 @@ canvas:not(#ribbon-canvas),
     filter: alpha(opacity=0);
   }
   100% {
-    opacity: 0.6;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-    filter: alpha(opacity=60);
+    opacity: 0.7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    filter: alpha(opacity=70);
   }
 }
 @keyframes ribbon_to_show {
@@ -1015,9 +1015,9 @@ canvas:not(#ribbon-canvas),
     filter: alpha(opacity=0);
   }
   100% {
-    opacity: 0.6;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-    filter: alpha(opacity=60);
+    opacity: 0.7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    filter: alpha(opacity=70);
   }
 }
 @-moz-keyframes avatar_turn_around {
@@ -1325,7 +1325,7 @@ canvas:not(#ribbon-canvas),
   }
 }
 :root {
-  --global-font-size: 14px;
+  --global-font-size: 15px;
   --global-bg: #fff;
   --font-color: #4c4948;
   --hr-border: #d2ebfd;
@@ -1657,7 +1657,7 @@ figure.highlight pre .javascript .function {
 }
 #article-container pre,
 #article-container code {
-  font-size: var(--global-font-size);
+  font-size: 14px;
   font-family: consolas, Menlo, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
 }
 #article-container code {
@@ -1685,7 +1685,7 @@ figure.highlight pre .javascript .function {
 #article-container figure.highlight figcaption,
 #article-container figure.highlight .caption {
   padding: 6px 0 2px 14px;
-  font-size: var(--global-font-size);
+  font-size: 14px;
   line-height: 1em;
 }
 #article-container figure.highlight figcaption a,
@@ -1717,7 +1717,7 @@ figure.highlight pre .javascript .function {
   height: 2.15em;
   background: var(--hltools-bg);
   color: var(--hltools-color);
-  font-size: var(--global-font-size);
+  font-size: 14px;
 }
 #article-container .highlight-tools.closed ~ * {
   display: none;
