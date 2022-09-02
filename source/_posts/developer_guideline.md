@@ -40,6 +40,19 @@ feat: add hat wobble
 - ci: 更改为 CI 配置文件和脚本
 - revert: 恢复以前的提交
 
+在 `VS Code` 里显示Commit提示信息, 新建文本文件 commit-template.txt
+```
+type: feat, fix, docs, style, refactor, test, chore, ci, or revert.
+```
+
+`git` 配置提示信息
+```
+git config --global commit.template commit-template.txt
+```
+
+
+
+
 > 💡 chore中"繁重的任务" 表示外部用户不会看到任何内容：
 > - 实现（现有功能，不涉及修复），
 > - 配置（如 或 ），.gitignore.gitattributes

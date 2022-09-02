@@ -20,7 +20,7 @@ deploy-github-pages.cmd
 说明
 - `main` 分支 - 博客框架, 编译生成静态页面
 - `deployment` 分支 - 静态页面, 部署至 `Github Pages`
-- `Discussions` 功能 - 博客的评论系统aa
+- `Discussions` 功能 - 博客的评论系统
 
 ---
 
